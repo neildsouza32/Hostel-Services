@@ -1,0 +1,37 @@
+/* NavLink.css */
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    font-size: 18px;
+    position: relative;
+    margin: 0 20px;
+    transition: color 0.5s; /* Increase the duration to make color transition slower */
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Highlight color on hover */
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+  }
+  
+  .nav-link .nav-link-highlight {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #007bff; /* Highlight color */
+    transform: scaleX(0); /* Initially hidden */
+    transform-origin: center;
+    transition: transform 0.5s ease, background-color 0.3s ease; /* Enhance the animation with background-color transition */
+  }
+  
+  .nav-link.active .nav-link-highlight {
+    transform: scaleX(1); /* Fully visible on active page */
+    background-color: transparent; /* Change the background color on active page */
+    box-shadow: 0px 2px 4px rgba(10, 10, 10, 0.4); /* Add a subtle shadow */
+  }
+  

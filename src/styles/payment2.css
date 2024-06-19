@@ -1,0 +1,31 @@
+/* PaymentConfirmation.css */
+
+.payment-confirmation {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .confirmation-message {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .transaction-input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+  }
+  
+  .confirm-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .confirm-button:hover {
+    background-color: #0056b3;
+  }
+  

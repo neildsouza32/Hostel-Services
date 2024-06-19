@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Example Room 1 -->
+  <rect x="50" y="50" width="200" height="150" fill="lightblue" stroke="black" stroke-width="2" />
+  <text x="100" y="100" font-family="Arial" font-size="16" fill="black">Room 101</text>
+
+  <!-- Example Room 2 -->
+  <rect x="300" y="50" width="150" height="100" fill="lightgreen" stroke="black" stroke-width="2" />
+  <text x="350" y="100" font-family="Arial" font-size="16" fill="black">Room 102</text>
+
+  <!-- Example Hallway -->
+  <line x1="250" y1="200" x2="450" y2="200" stroke="black" stroke-width="4" />
+
+  <!-- Add more rooms, lines, and labels as needed -->
+</svg>

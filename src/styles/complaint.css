@@ -1,0 +1,77 @@
+.hostel-grievances-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.form-section {
+  width: 100%; /* Use 100% width */
+  max-width: 600px; /* Limit the maximum width */
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 20px; /* Add margin */
+  box-sizing: border-box; /* Include padding and border in width */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-input {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  box-sizing: border-box; /* Include padding and border in width */
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block; /* Make it a block element */
+  margin: 0 auto; /* Center align */
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+  .hostel-grievances-form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .form-section {
+    width: 100%; /* Use full width on smaller screens */
+    margin: 20px 0; /* Adjust margin */
+  }
+
+  .side-section {
+    width: 100%; /* Use full width on smaller screens */
+    margin: 20px 0; /* Adjust margin */
+  }
+}

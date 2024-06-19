@@ -1,0 +1,88 @@
+/* UserProfile.css */
+
+.user-profile-container {
+  display:flex;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.user-details {
+  display:flex;
+  width: 60%;
+  margin-right: 20px;
+}
+
+.user-details-content {
+  
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.info-columns {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.info-pair {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 48%;
+}
+
+label {
+  flex: 1;
+  text-align: right;
+  margin-right: 10px;
+}
+
+p {
+  flex: 2;
+}
+
+.details {
+  width: 40%;
+}
+
+.details-section {
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+details-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* Add these styles to adjust the size of the edit button */
+.info-pair button {
+  font-size: 14px;
+  padding: 5px 10px;
+}

@@ -1,0 +1,44 @@
+/* Add this CSS to your LeaveRequests.js component or import it from a separate CSS file */
+
+/* Style the main container */
+div {
+    text-align: center;
+  }
+  
+  /* Style the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Style table headers */
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* Style table cells */
+  td {
+    padding: 8px;
+  }
+  
+  /* Style the action buttons */
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  button:hover {
+    background-color: #217dbb;
+  }
+  
+  /* Center the table */
+  table {
+    margin: 0 auto;
+  }
+  

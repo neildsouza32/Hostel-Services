@@ -1,0 +1,111 @@
+/* Navbar.css */
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #24578d; /* Navbar background color */
+    color: #FEFEF7; /* Navbar text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+  }
+  
+  /* Left side (logo and hidden links) */
+  .leftSide {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logoWithText {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logoWithText img {
+    max-width: 100px; /* Adjust the logo size */
+    margin-right: 10px; /* Adjust the spacing between the logo and text */
+  }
+  
+  .hiddenLinks a {
+    color: #FEFEF7; /* Hidden links text color */
+    text-decoration: none;
+    margin-right: 20px; /* Adjust the spacing between links */
+  }
+  
+  /* Right side (toggle button and visible links) */
+  .rightSide {
+    display: flex;
+    align-items: center;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px; /* Adjust the button size */
+    color: #FEFEF7; /* Button color */
+    margin-right: 20px; /* Adjust the spacing between the button and links */
+  }
+  
+  /* Navbar links */
+  .navbar-links {
+    display: flex;
+  }
+  
+  .navbar-links a {
+    color: #FEFEF7; /* Navbar links text color */
+    text-decoration: none;
+    margin-right: 20px; /* Adjust the spacing between links */
+  }
+  
+  /* Styling for the "Log Out" button */
+  .logout-button {
+    background-color: #3408a4; /* Button background color */
+    color: #d0d5dd; /* Button text color */
+    padding: 20px 30px; /* Adjust button padding */
+    border: none;
+    border-radius: 10px; /* Rounded button corners */
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    background-color: #002C68; /* Button background color on hover */
+    color: #FEFEF7; /* Button text color on hover */
+  }
+  
+  /* Navbar responsive styles */
+  @media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .leftSide {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+  
+    .leftSide a {
+      margin: 5px 0;
+    }
+  
+    .rightSide {
+      margin-top: 10px;
+    }
+  
+    button {
+      margin: 0;
+    }
+  
+    .navbar-links {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .navbar-links a {
+      margin: 5px 0;
+    }
+  }
+  
